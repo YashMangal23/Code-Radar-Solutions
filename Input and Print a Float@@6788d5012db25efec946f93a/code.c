@@ -1,3 +1,4 @@
 float n;
-printf("%f",n);
 scanf("%f",&n);
+printf("%f",n);
+
