@@ -33,7 +33,7 @@ int main() {
     printf("\nTop Scorer: ");
     printf("Roll Number: %d, ", stud[topScorerIndex].rollno);
     printf("Name: %s, ", stud[topScorerIndex].name);
-    printf("Attendance: %.2f\n", stud[topScorerIndex].attendance);
+    printf("Marks: %.2f\n", stud[topScorerIndex].attendance);
     
     return 0;
 }
