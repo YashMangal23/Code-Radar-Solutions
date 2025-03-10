@@ -5,7 +5,7 @@ int main() {
     struct student {
         int rollno;
         char name[50];
-        float attendance;
+        float Marks;
     };
     
     struct student stud[1000];
@@ -19,11 +19,11 @@ int main() {
         
         scanf("%s", stud[i].name);
         
-        scanf("%f", &stud[i].attendance);
+        scanf("%f", &stud[i].Marks);
     }
     
     for (int i = 1; i < n; i++) {
-        if (stud[i].attendance > stud[topScorerIndex].attendance) {
+        if (stud[i].Marks > stud[topScorerIndex].Marks) {
             topScorerIndex = i;
         }
     }
