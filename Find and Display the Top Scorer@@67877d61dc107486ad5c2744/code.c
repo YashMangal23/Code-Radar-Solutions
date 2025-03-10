@@ -11,19 +11,14 @@ int main() {
     struct student stud[1000];
     int n, topScorerIndex = 0;
     
-    printf("Enter the number of students: ");
     scanf("%d", &n);
     
     for (int i = 0; i < n; i++) {
-        printf("\nEnter details for student %d:\n", i + 1);
 
-        printf("Roll Number: ");
         scanf("%d", &stud[i].rollno);
         
-        printf("Name: ");
         scanf("%s", stud[i].name);
         
-        printf("Attendance: ");
         scanf("%f", &stud[i].attendance);
     }
     
