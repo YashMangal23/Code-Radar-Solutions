@@ -15,7 +15,7 @@ for(int i=0;i<n;i++){
     scanf("%f",&stud[i].attendence);
 }
 for(int i=0;i<n;i++){
-    printf("Roll Number: , Name: , Marks: %d\n",stud[i].rollno);
+    printf("Roll Number: , Name: , Marks: %d\n",stud[i].rollno,stud[i].name,&stud[i].attendence);
     
 }
 return 0;
