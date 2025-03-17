@@ -11,7 +11,7 @@ int main() {
     for (i = 0; i < length; i++) {
         reversed[i] = str[length - i - 1];
     }
-    reversed[length] = '\0'; 
+    // reversed[length] = '\0'; 
     printf(reversed);
     return 0;
 }
