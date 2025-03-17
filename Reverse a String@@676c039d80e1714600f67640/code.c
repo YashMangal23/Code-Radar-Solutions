@@ -1,3 +1,4 @@
+#include <stdio.h>
 int main() {
     char str[100], reversed[100];
     int i, length;
